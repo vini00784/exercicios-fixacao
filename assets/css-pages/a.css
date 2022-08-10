@@ -27,3 +27,8 @@ main {
 h1 {
     color: white;
 }
+
+.result {
+    background-color: white;
+    width: 100%;
+}

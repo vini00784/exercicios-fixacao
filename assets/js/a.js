@@ -7,8 +7,9 @@ function showResult() {
     const result = document.getElementById('result')
 
     if(form.reportValidity()) {
-        console.log('SLA')
+        result = number1 - number2
     }
+    result.textContent = `${result}`
 }
 
 document.getElementById('calculate')
