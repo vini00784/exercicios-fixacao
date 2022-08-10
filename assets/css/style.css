@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 300px;
+}
+
+h1 {
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    height: auto;
+    width: 100vw;
+    /* background-color: aliceblue; */
+    margin-top: 60px;
+}
+ul {
+    display: flex;
+    gap:50px;
+}
+ul li {
+    border: solid 0.5px white;
+    border-radius: 100%;
+    padding: 150px;
+}
+li a {
+    font-size: 2rem;
+}
+
+.exercise {
+    transition: all 1.5s;
+}
+.exercise:hover {
+    background-color: red;
+    transform: scale(1.1);
+}
