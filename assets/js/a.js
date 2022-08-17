@@ -5,10 +5,13 @@ function showResult() {
     const number2 = document.getElementById('number2').value
     const form = document.getElementById('form')
     const result = document.getElementById('result')
-    const diference = number1 - number2
 
     if(form.reportValidity()) {
-        result.textContent = `${number1} - ${number2} = ${diference}`
+        if(number1 > number2) {
+            result.textContent = result.textContent = `${number1} - ${number2} = ${number1 - number2}`
+        } else if(number2 > number1) {
+            result.textContent = result.textContent = `${number2} - ${number1} = ${number2 - number1}`
+        }
     }
 }
 
