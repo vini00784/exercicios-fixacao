@@ -5,11 +5,11 @@ function showResult() {
     const number2 = document.getElementById('number2').value
     const form = document.getElementById('form')
     const result = document.getElementById('result')
+    const diference = number1 - number2
 
     if(form.reportValidity()) {
-        result = number1 - number2
+        result.textContent = `${number1} - ${number2} = ${diference}`
     }
-    result.textContent = `${result}`
 }
 
 document.getElementById('calculate')

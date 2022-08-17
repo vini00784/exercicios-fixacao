@@ -3,32 +3,46 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: black;
+    background-color: grey;
 }
 
 main {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
-    height: 700px;
-    width: 450px;
+    background-color: aliceblue;
+    height: 650px;
+    width: 400px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background-color: aquamarine;
 }
 
 .title {
-    background-color: #095849;
-    width: 100%;
-    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: aqua;
 }
-h1 {
-    color: white;
+.title h1 {
+    font-size: 1.5rem;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+
 .result {
-    background-color: white;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: green;
 }
