@@ -8,9 +8,9 @@ function showResult() {
 
     if(form.reportValidity()) {
         if(number1 > number2) {
-            result.textContent = result.textContent = `${number1} - ${number2} = ${number1 - number2}`
+            result.textContent = `${number1} - ${number2} = ${number1 - number2}`
         } else if(number2 > number1) {
-            result.textContent = result.textContent = `${number2} - ${number1} = ${number2 - number1}`
+            result.textContent = `${number2} - ${number1} = ${number2 - number1}`
         }
     }
 }
